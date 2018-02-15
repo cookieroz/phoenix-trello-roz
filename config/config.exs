@@ -37,7 +37,7 @@ config :guardian, Guardian,
   issuer: "PhoenixTrello",
   ttl: { 3, :days },
   verify_issuer: true,
-  secret_key: <your guardian secret key>,
+  secret_key: "9XDG9FvlgbK69vFeSgEprjvQHrOdJuf1x1DpBGwGfvziCLeBmDXjGr7iJRuQRB1W",
   serializer: PhoenixTrello.GuardianSerializer
 
 # Import environment specific config. This must remain at the bottom

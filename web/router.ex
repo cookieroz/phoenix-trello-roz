@@ -18,6 +18,7 @@ defmodule PhoenixTrello.Router do
 
     scope "/v1" do
       post "/registrations", RegistrationController, :create
+      resources "/boards", BoardController, only: [:index, :create]
     end
   end
 
